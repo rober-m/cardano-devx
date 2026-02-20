@@ -1,0 +1,1 @@
+The most important item: Aligning the ecosystem with this strategy. Map all ecosystem tooling, creating a baseline for the "New Tooling" Epic. Contributing to community tooling (with an emphasis on off-chain/integration). Improving existing DApp development tooling (LSPs, extensions, TUIs, etc.). 
