@@ -13,8 +13,8 @@ The structure is as follows:
 1. [Strategy](#strategy)
 1. [Deliverables](#deliverables)
 1. [How we will measure success](#how-we-will-measure-success)
-1. [Teams on board with this strategy](#teams-on-board-with-this-strategy)
 1. [Conclusion](#conclusion)
+1. [Teams on board with this strategy](#teams-on-board-with-this-strategy)
 
 ## Vision
 
@@ -90,11 +90,20 @@ By itself, this doesn't suggest that Cardano has a weak DevX. This metric is not
 
 ### Developers VS Token Price
 
-The difference in developer is not **_only_** a matter of "token go up, developer activity goes up". As we can see in the following chart (number of new developers vs token price for all three ecosystems), even if there is a clear correlation, it's far from being a 1:1 relationship.
+The difference in developer is not **_only_** a matter of "token go up, developer activity goes up". We can explore that in the following chart that shows the number of *new* developers vs token price for all three ecosystems:
+
 
 ![New developers vs token price](./assets/new-devs_vs_price.png)
 
-One thing to notice is that there's a delay between token price and developer activity. Both going up and going down. And that the ecosystem that manages to retain developers after the token price drops, might carry significant advantage over the rest.
+One thing to notice is that there's a slight delay between token price and new developer activity. Both going up and going down. And that the ecosystem that manages to retain developers after the token price drops, might carry significant advantage over the rest.
+
+However, even if there is a clear correlation, it's far from being a 1:1 relationship. To highlight this, here's a direct comparison between number of *total* developers (new and pre-existing) and price with a linear regresion to highligh the relationship:
+
+![Total developers vs token price](./assets/total-devs_vs_price.png)
+
+As we can see, the amount of developers (both new and established) doesn't hold 
+
+This also doesn't prove causation, though, only correlation.
 
 ### Developer survey results
 
