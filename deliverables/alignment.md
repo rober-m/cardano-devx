@@ -12,7 +12,7 @@ The primary objective is to align the ecosystem around a shared DevX vision. Not
 
 This involves mapping all ecosystem tooling, libraries, and documentation to create a comprehensive baseline, identifying gaps and overlaps, and establishing a shared understanding of the current state of developer experience across Cardano. 
 
-Once that's done, the team will actively contribute to community tooling, libraries, and documenation to:
+Once that's done, the team will actively contribute to community tooling, libraries, and documentation to:
 - Coordinate with various companies and projects to ensure efforts are complementary rather than duplicated.
 - Improve existing DApp development tooling (LSPs, extensions, TUIs, etc.).
 - Deduplicate and better connect documentation from different sources.
@@ -22,7 +22,7 @@ Once that's done, the team will actively contribute to community tooling, librar
 
 We'll also apply reactive and exploratory measures to new issues and low-hanging opportunities we identify during the implementation of this strategy. Examples of these:
 - Exploring defining a canonical representation for CBOR.
-- Creating a CBOR analyzer/interpreter (VSCode/TUI).
+- Creating a CBOR analyzer/interpreter (Code/TUI).
 - Adding an Error translation layer to improve node error messages for developers.
 - Integrating a no-code tool to "draw" transactions and convert them to Tx3/MeshJS/other. 
 - Generating off-chain types from CIP-57
