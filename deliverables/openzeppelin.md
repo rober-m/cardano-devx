@@ -12,7 +12,8 @@ Inspired by OpenZeppelin's role in the EVM ecosystem, this library will provide 
 
 The deliverable includes creating the library's infrastructure and website and shipping _at least_ 5 ready-to-audit smart contracts (both on-chain and off-chain). For example, Vesting, Programmable Tokens, DEX (Decentralized Exchanges), Swap, Lending, and other contracts.
 
-> NOTE: It's important to note the difference between this library and libraries like Anastasia Labs's [design-patterns](https://github.com/Anastasia-Labs/design-patterns) and [Vodka](https://github.com/sidan-lab/vodka). While libraries like `vodka` contain small on-chain utility functions and the `design-patterns` library contains fully-fledged on-chain generic patterns, our library's level of abstraction will be at the use case level and provide both on-chain and off-chain. We could say that we'll stand on the shoulders of libraries like those.
+> [!NOTE]
+> It's important to note the difference between this library and libraries like Anastasia Labs's [design-patterns](https://github.com/Anastasia-Labs/design-patterns) and [Vodka](https://github.com/sidan-lab/vodka). While libraries like `vodka` contain small on-chain utility functions and the `design-patterns` library contains fully-fledged on-chain generic patterns, our library's level of abstraction will be at the use case level and provide both on-chain and off-chain. We could say that we'll stand on the shoulders of libraries like those.
 
 ## Outcome
 
