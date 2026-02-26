@@ -231,9 +231,11 @@ We'll use interviews, code reviews, and feedback to estimate the time and effort
 
 ## Teams that support this strategy
 
+**What does support mean?:** If a team chooses to "support" this strategy, it means they agree with the overall problems and solutions presented. It doesn't mean they'd have to provide resources or that they commit to contribute to it. The objective of this list is to gauge alignment within the development ecosystem. And, of course, if there are things we should add/change/remove, issues and PRs are open!
+
 > [!NOTE]
 > This strategy is in active development. If a builder adds themselves to this table and then non-trivial changes are made to this proposal, we'll notify the representative to verify they still support this strategy. If there's no response, that specific representative will be pinned to the last supported version (commit).
 
-| Team | GitHub handle of representative |
-|------|---------------------------------|
-| IOG's Cardano Business Unit | @rober-m |
+| Team/Company | Representative |
+|--------------|----------------|
+| IOG's Cardano Business Unit| [@rober-m](https://github.com/rober-m) (PM of Developer Experience) |
