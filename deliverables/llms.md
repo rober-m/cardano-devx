@@ -1,15 +1,22 @@
 # AI/LLM Native
 
-Make the Cardano developer ecosystem AI/LLM-native by ensuring all documentation and tooling is optimized for consumption by large language models and AI-powered development tools. This includes making documentation machine-readable through standardized LLM.txt files, providing integrated access to all docs through an MCP server, and creating agent skills for common development workflows. As AI-assisted coding becomes the norm, ensuring Cardano's ecosystem is first-class in AI tooling will be a significant competitive advantage for developer onboarding and productivity.
-
 ## Dependencies
 
-TODO
+- [Community alignment](/deliverables/alignment.md)
+- [Developer HUB](/deliverables/developer-hub.md)
 
-## Sub-items
+## Description
 
-| Item | Primary | Overview | Why | Expected Outcome |
-| ---- | ------- | -------- | --- | ---------------- |
-| LLM.txt for all docs | Yes | Add an LLM.txt file to all documentation resources. | TODO | TODO |
-| MCP Server for integrated docs | Merge | Create an MCP server to integrate and access all documentation deliverables. | TODO | TODO |
-| Agent Skills for Common Actions | Merge | Create a set of Claude skills for common development actions (e.g., testing contracts, updating dependencies, etc.) and integrate them with Starter CLI. | TODO | TODO |
+AI/LLM-assisted development is here to stay, so we need to ensure our ecosystem is prepared for it.
+
+We'll make the Cardano developer ecosystem AI/LLM-native by ensuring all key documentation and tooling are optimized for consumption by LLMs and AI-powered development tools. This includes:
+- **Making documentation machine-readable through standardized `llm.txt` files:** We'll help add `llm.txt` files to the documentation of commonly used resources. Not only on the [developer HUB](/deliverables/developer-hub.md) presented in this strategy, but also to common tooling and libraries created and maintained by other teams (e.g., Aiken, Tx3, MeshJS, etc.).
+- **Providing integrated access to docs through MCP servers:** Same idea as the previous point, but for MCP servers.
+- **Creating Agent Skills for common development workflows:** We'll create a set of Agent Skills for common development actions (e.g., testing contracts, updating dependencies, etc.) for the most common tools and workflows.
+- Other measures that might become apparent during the implementation of this plan.
+
+As AI-assisted coding becomes the norm, ensuring Cardano's ecosystem is first-class in AI tooling will be a significant competitive advantage for developers onboarding and productivity.
+
+## Outcome
+
+The outcome is that developers will face no friction in using their LLMs to assist their development on Cardano.
