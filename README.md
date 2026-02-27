@@ -88,7 +88,41 @@ Even if we take the natural log of population sizes to directly represent the co
 
 ![Developer's growth rate (GR) since May 2020](./assets/total-devs_growth-rate.png)
 
-This metric is not only affected by DevX but also by positioning, marketing, and other factors. So, by itself, it doesn't necessarily suggest that Cardano has a weak DevX. But it's a valuable datapoint to use in conjunction with the ones presented next.
+This helps, however, fitting one log-linear regression across the entire period (May 2020 - present) and producing a single GR number per ecosystem is misleading because:
+- **Solana** had explosive early growth (2021-2022) then flattened. Its GR of 0.342 is dominated by the early surge and doesn't represent current dynamics.
+- **Ethereum** plateaued around mid-2022 and has been roughly flat since.
+- **Cardano** shows steadier growth throughout.
+
+A single trend line masks structural breaks which is exactly the kind of regime change we'd want to detect.
+
+So, instead of one GR per ecosystem, we compute a GR time series using a 365-day sliding window. For each data point, we fit `ln(devs) = slope * t + intercept` over the trailing 12 months. The slope (converted to per-year) gives the instantaneous growth rate at that point in time.
+
+This lets us:
+- See how GR changes over time for each ecosystem
+- Spot when growth accelerated or decelerated
+- Check whether ecosystems move in parallel
+
+Then, we compute `GR_cardano - avg(GR_ethereum, GR_solana)` at each point in time. This is the core metric for a [difference-in-differences](https://en.wikipedia.org/wiki/Difference_in_differences) style analysis.
+
+- **Above zero**: Cardano is growing faster than the control ecosystems.
+- **Below zero**: Cardano is growing slower.
+- **A sustained upward shift after an intervention**: evidence that the intervention had a positive effect.
+
+The control ecosystems absorb market-wide effects (crypto winter, bull runs, regulatory changes). What remains after subtracting their change is more attributable to Cardano-specific actions. And that's how we obtain the next three charts:
+1. **Developer Counts (log scale)** — Raw data as lines with logaritmic scale to be able to compare them (otherwise Cardano's variance is too small).
+2. **Rolling 365-Day GR** — Growth rate over time for each ecosystem.
+3. **Cardano Relative GR vs Controls** — A DiD-ready chart to be used as overall view of our current state and to be used as baseline to assess this proposal's impact. We'll compare the relative GR before and after implementing this proposal to see the results. If efective, the relative GR should shift upward after that line. The more the better.
+
+![Developer's growth rate (GR) since May 2020](./assets/total-devs_growth-rate_full.png)
+
+The key graph to look at is the last one. In that graph, having 0 relative GR means we grow equally to Ehtereum and Solana. With the huge difference in total amount of developers between Cardano and the others, **Cardano having 0 relative growth rate is very bad** because it means Ethereum and Solana will keep growing by thousands of developers/year while we add less than a hundred/year. Over time, gap between them and Cardano gets bigger and bigger, and harder and harder for us to compete. So **our ideal scenario is sustained positive relative growth rate (the higher, the better)** to, slowly but surely, catch up with them over many years.
+
+There are some caveats:
+- **Confounders**: Other ecosystem-specific events around the same time can pollute the signal of this specific proposal.
+- **Lag**: Developer ecosystem changes take time. We may need to wait 3-6+ months post-implementation to see effects.
+- **Low R-squared windows**: If the exponential model fits poorly in a given window, that GR estimate should be interpreted cautiously.
+
+Also, this metric is not only affected by DevX but also by positioning, marketing, and other factors. So, by itself, it doesn't necessarily suggest that Cardano has a weak DevX. But it's a valuable datapoint to use in conjunction with the ones presented next.
 
 ### Developers VS Token Price
 
@@ -184,6 +218,8 @@ Developer experience is a complex, abstract concept, and there's no single metri
 <summary><bold>Metrics relative to the blockchain ecosystem</bold></summary>
 <br>
 We use metrics relative to the overall blockchain ecosystem and direct competitors (Ethereum and Solana) to control for industry-wide trends. This is important to avoid attributing success or failure to the strategy when it's actually due to changes in blockchain regulations, market conditions, or other unrelated industry-wide factors.
+
+We'll use the same methodology we used to analyze if Cardano has a DevX issue (relative growth rate using difference-in-differences technique) to analyze these three metrics:
 
 - The relative growth rate of new developers increases by at least 30% compared to the baseline.
 - The relative growth rate of new DApps/projects increases by at least 30% compared to the baseline.
