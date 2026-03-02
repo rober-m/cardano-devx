@@ -235,6 +235,7 @@ We'll use the same methodology we used to analyze whether Cardano has a DevX iss
 We use past performance to set the baseline for the metrics.
 
 - Results of the Cardano Foundation's Developer Survey indicate that the developer experience has improved.
+- Developer NPS score.
 
 </details>
 
