@@ -276,3 +276,4 @@ We'll use interviews, code reviews, and feedback to estimate the time and effort
 | Team/Company | Representative |
 |--------------|----------------|
 | IOG's Cardano Business Unit| [@rober-m](https://github.com/rober-m) (PM of Developer Experience) |
+| Mesh SDK | [Jingles](https://github.com/jinglescode) |
