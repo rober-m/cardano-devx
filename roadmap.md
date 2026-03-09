@@ -6,19 +6,19 @@ This roadmap covers the execution of the Cardano Developer Experience strategy a
 
 Deliverables are sequenced to respect dependencies: **Community Alignment** is foundational and must run first, since the **Setup CLI**, **Developer HUB**, **AI/LLM Native**, and **Reactive** tracks all depend on its outputs. **ContractsLibrary** and **Developer Outreach** can start independently in parallel.
 
-Impact on direct metrics will be measured in **November 2027**. Impact on indirect metrics will be measured in **March/April 2028** after enough time has elapsed for the deliverables to influence developer activity.
+Impact on direct metrics will be measured in **June 2027**. Impact on indirect metrics will be measured in **November 2027** after enough time has elapsed for the deliverables to influence developer activity.
 
 ---
 
 ## Dependency Map
 
 ```
-Community Alignment ──┬──► Setup CLI
-                      ├──► Developer HUB ──► AI/LLM Native
-                      └──► Reactive
+Community Alignment ──┬──► Setup CLI ─────┬──► Developer Outreach (full activation)
+                      ├──► Developer HUB ─┴──► AI/LLM Native
+                      └──► Reactive      
 
 ContractsLibrary (independent)
-Developer Outreach (independent)
+Developer Outreach — Initial phase
 ```
 
 ---
@@ -70,9 +70,9 @@ gantt
     Execute 2–3 highest-ROI items                :re2, 2027-01-01, 2027-03-31
     Execute remaining items & document findings  :re3, 2027-04-01, 2027-06-30
 
-    section Hackathons
-    Hackathon #1 (baseline measurement)          :milestone, hk1, 2026-07-15, 1d
-    Hackathon #2 (measure improvement)           :milestone, hk2, 2027-06-15, 1d
+    section Measurements
+    Hackathon #1 (baseline measurement)          :milestone, mt1, 2026-07-15, 1d
+    Hackathon #2 (measure improvement)           :milestone, mt2, 2027-06-15, 1d
 ```
 
 ---
@@ -140,16 +140,22 @@ gantt
 | **Hackathon #2** | Run the second controlled hackathon under the same conditions as Hackathon #1. Compare results to measure improvement in onboarding effort and developer experience. |
 
 ---
-
 ## Success Metrics
 
-Measured in **November 2027**.
+### Direct metrics — measured June 2027
+
+| Metric | Target |
+|---|---|
+| Hackathon onboarding effort (zero to testnet MVP) | Reduction vs Hackathon #1 |
+| CF Developer Survey — DevX satisfaction scores | Measurable improvement |
+
+### Indirect metrics — measured November 2027
+
+Indirect metrics require more time to reflect in on-chain and ecosystem-wide data. Measured ~5 months after all deliverables ship to allow sufficient lag for ecosystem effects.
 
 | Metric | Target |
 |---|---|
 | Relative new-developer growth rate (vs Eth/Sol, DiD) | +30% vs baseline |
 | Relative new DApp/project growth rate (vs Eth/Sol, DiD) | +30% vs baseline |
 | Relative new contracts deployed on Mainnet (vs Eth/Sol, DiD) | +30% vs baseline |
-| CF Developer Survey — DevX satisfaction scores | Measurable improvement |
-| Hackathon onboarding effort (zero to testnet MVP) | Reduction vs Hackathon #1 |
 
