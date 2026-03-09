@@ -1,10 +1,12 @@
-# OpenZeppelin-like Library
+# ContractsLibrary Library
 
 ## Dependencies
 
 No dependencies
 
 ## Description
+
+OpenZeppelin-like library. 
 
 We'll design and implement a **library of standardized, reusable smart contracts — both on-chain and off-chain — with an initial focus on building blocks and DeFi primitives.** 
 
