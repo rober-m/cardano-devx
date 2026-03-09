@@ -10,7 +10,7 @@
 AI/LLM-assisted development is here to stay, so we need to ensure our ecosystem is prepared for it.
 
 We'll make the Cardano developer ecosystem AI/LLM-native by ensuring all key documentation and tooling are optimized for consumption by LLMs and AI-powered development tools. This includes:
-- **Making documentation machine-readable through standardized `llm.txt` files:** We'll help add `llm.txt` files to the documentation of commonly used resources. Not only on the [developer HUB](/deliverables/developer-hub.md) presented in this strategy, but also to common tooling and libraries created and maintained by other teams (e.g., Aiken, Tx3, MeshJS, etc.).
+- **Making documentation machine-readable through standardized `llms.txt` files:** We'll help add `llms.txt` files to the documentation of commonly used resources. Not only on the [developer HUB](/deliverables/developer-hub.md) presented in this strategy, but also to common tooling and libraries created and maintained by other teams (e.g., Aiken, Tx3, MeshJS, etc.).
 - **Providing integrated access to docs through MCP servers:** Same idea as the previous point, but for MCP servers.
 - **Creating Agent Skills for common development workflows:** We'll create a set of Agent Skills for common development actions (e.g., testing contracts, updating dependencies, etc.) for the most common tools and workflows.
 - Other measures that might become apparent during the implementation of this plan.

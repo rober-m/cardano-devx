@@ -2,7 +2,10 @@
 
 ## Dependencies
 
-No dependencies
+Initial outreach (Discord support, answering questions) starts immediately with no dependencies. Full activation — live streams, video tutorials, and Build Club sessions — requires:
+
+- [Developer HUB](/deliverables/developer-hub.md) — content and live streams will reference and explain it
+- [Setup CLI](/deliverables/setup-cli.md) — demos and tutorials will use it as the primary project entry point
 
 ## Description 
 
