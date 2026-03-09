@@ -13,6 +13,7 @@ The structure is as follows:
 1. [Target Audience](#target-audience)
 1. [Deliverables](#deliverables)
 1. [How we will measure success](#how-we-will-measure-success)
+1. [Roadmap](#roadmap)
 1. [Teams that support this strategy](#teams-that-support-this-strategy)
 
 ## Vision
@@ -265,6 +266,10 @@ The main metric to measure success is how hard it is to onboard a new developer 
 We'll use interviews, code reviews, and feedback to estimate the time and effort required to onboard a new developer to Cardano. Then, we'll compare the results of the two hackathons to estimate the difference in overall developer experience.
 
 </details>
+
+## Roadmap
+
+Detailed roadmap [here](/roadmap.md).
 
 ## Teams that support this strategy
 
