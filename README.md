@@ -24,7 +24,9 @@ Make Cardano known for great developer experience across the entire Blockchain e
 
 **As a builder new to Cardano, I want to go from zero to an MVP on testnet in under two weeks, so that I can validate whether Cardano is the right platform for my project without a large upfront time investment.**
 
-**Problem:** The current developer experience (DevX) on Cardano is poor and fragmented, making it difficult for new and experienced developers to build, test, and deploy decentralized applications efficiently. Friction points include (but are not restricted to) a lack of standardized tooling, non-canonical patterns and data representations, and outdated, fragmented documentation and libraries. All of which slow down development cycles and increase the barrier to entry for developers from other ecosystems (EVM, Web2). However, the underlying issue is not a lack of effort but rather misaligned incentives and a lack of an ecosystem-wide strategy.
+**Problem:** The current developer experience (DevX) on Cardano is poor and fragmented, making it difficult for new and experienced developers to build, test, and deploy decentralized applications efficiently. Friction points include (but are not restricted to) a lack of standardized tooling, non-canonical patterns and data representations, and outdated, fragmented documentation and libraries. All of which slow down development cycles and increase the barrier to entry for developers from other ecosystems (EVM, Web2). 
+
+*However, the underlying issue is not a lack of effort but rather misaligned incentives and a lack of an ecosystem-wide strategy.*
 
 **Solution:** The core of this proposal is to provide an ecosystem-wide strategy that allows different companies that affect DevX to align in achieving a DevX initially on par with, and eventually superior to, what EVM developers are used to. The end result is that newcomers face less friction when getting started in Cardano than in other blockchain ecosystems. We'll do this by:
 
