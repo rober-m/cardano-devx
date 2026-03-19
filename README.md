@@ -284,4 +284,4 @@ Detailed roadmap [here](/roadmap.md).
 |--------------|----------------|
 | IOG's Cardano Business Unit| [@rober-m](https://github.com/rober-m) (PM of Developer Experience) |
 | Mesh SDK | [Jingles](https://github.com/jinglescode) |
-| Cardano Foundation | [@boraonchain](https://github.com/boraonchain) |
+| Cardano Foundation | [@Bora](https://github.com/0xBora) |
