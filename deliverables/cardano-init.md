@@ -1,4 +1,4 @@
-# Setup CLI
+# cardano-init
 
 ## Dependencies
 
